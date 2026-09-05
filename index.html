@@ -1,10 +1,132 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=frontend/index.html" />
-    <title>Redirecting to SettleAI...</title>
-  </head>
-  <body>
-    <p>Redirecting to <a href="frontend/index.html">SettleAI Dashboard</a>...</p>
-  </body>
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SettleLens turns payment, bank, and ledger records into clear settlement answers.">
+  <meta name="theme-color" content="#11110f">
+  <title>SettleLens — Every payment has a story</title>
+  <script src="assets/js/site-theme.js"></script>
+  <link rel="icon" type="image/png" href="assets/images/settlelens-logo.png">
+  <link rel="stylesheet" href="assets/css/landing.css">
+  <link rel="stylesheet" href="assets/css/money.css">
+  <link rel="stylesheet" href="assets/css/legal.css">
+  <link rel="stylesheet" href="assets/css/startup.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="boot" aria-hidden="true"><div class="boot-logo"><img class="brand-logo-image" src="assets/images/settlelens-logo.png" alt=""></div><div class="boot-line"><i></i></div><span>Connecting the dots</span></div>
+  <div class="grain" aria-hidden="true"></div><div class="scroll-progress" aria-hidden="true"><i></i></div>
+  <header class="nav-wrap">
+    <a class="logo" href="#top" aria-label="SettleLens home"><img class="brand-logo-image" src="assets/images/settlelens-logo.png" alt="SettleLens"></a>
+    <nav aria-label="Landing page navigation"><a href="#method">How it works</a><a href="#proof">The proof</a><a href="#platform">Platform</a><a href="#exceptions">Exceptions</a><a href="terms.html?theme=midnight">Terms</a></nav>
+    <div class="nav-actions"><a class="edition" href="pearl.html"><span></span>Light mode</a><a class="nav-cta magnetic" href="login.html">Sign in <b>↗</b></a></div>
+    <button class="menu" aria-label="Open navigation" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <div class="kicker reveal"><span>01</span> Settlement intelligence</div>
+        <h1 class="split-lines"><span>Money moves.</span><span class="serif">Clarity follows.</span></h1>
+        <p class="hero-lede reveal">Resolve settlement questions across gateway, bank, and ledger—with evidence for every answer.</p>
+        <div class="hero-actions reveal"><a class="primary magnetic" href="login.html">Sign in <b>↗</b></a><button class="text-action watch-story">Watch the trace <i></i></button></div>
+        <div class="hero-foot reveal"><span>Settlement support</span><span>Explore ↓</span></div>
+      </div>
+      <div class="hero-visual money-visual" role="group" aria-label="Illustrative money flow for transaction TXN-1041">
+  <div class="money-scene" data-money-phase="0">
+    <div class="money-grid" aria-hidden="true"></div>
+    <svg class="money-routes" viewBox="0 0 600 580" aria-hidden="true"><path class="route-base" d="M85 100H340Q400 100 400 160V365Q400 415 460 415H555"/><path class="route-travel" d="M85 100H340Q400 100 400 160V365Q400 415 460 415H555"/><path class="route-base" d="M35 365H130Q180 365 180 310V235"/><path class="route-travel route-two" d="M35 365H130Q180 365 180 310V235"/></svg>
+    <div class="payment-note note-back" aria-hidden="true"><span>GATEWAY / CAPTURED</span><strong>₹8,499<span>.00</span></strong><div class="note-bottom"><i>TXN-1041</i><b>PAYMENT RECEIVED ↗</b></div><span class="note-rupee">₹</span></div>
+    <div class="fee-note" aria-hidden="true"><span>LEDGER ENTRY</span><strong>− ₹169.98</strong><small>Recorded fee deduction</small></div>
+    <div class="settlement-ticket">
+      <div class="ticket-head"><span class="ticket-brand"><img class="brand-logo-image" src="assets/images/settlelens-logo.png" alt="SettleLens"></span><span class="ticket-demo">MOCK TRACE</span></div>
+      <div class="ticket-label" id="money-label">PAYMENT CAPTURED</div>
+      <div class="ticket-amount" id="money-amount">₹8,499<span>.00</span></div>
+      <div class="ticket-description" id="money-description">Customer payment confirmed by the gateway.</div>
+      <div class="ticket-rule"><i></i><span>TXN-1041</span><i></i></div>
+      <div class="ticket-equation"><span>Captured<strong>₹8,499.00</strong></span><b>−</b><span>Fee<strong>₹169.98</strong></span><b>=</b><span>Net payable<strong>₹8,329.02</strong></span></div>
+      <div class="ticket-status"><i></i><span id="money-status">01 / Gateway record verified</span><b id="money-symbol">↗</b></div>
+    </div>
+    <div class="bank-receipt"><span class="bank-symbol" aria-hidden="true">▥</span><div><small>MERCHANT BANK</small><strong id="bank-result">Awaiting credit</strong></div><span class="bank-check" id="bank-symbol">↗</span></div>
+    <span class="currency-tile tile-one" aria-hidden="true">₹</span><span class="currency-tile tile-two" aria-hidden="true">₹</span>
+    <div class="money-stage-controls" role="group" aria-label="Explore the money flow"><button class="active" data-money-stage="0" aria-pressed="true"><span>01</span>Capture<i></i></button><button data-money-stage="1" aria-pressed="false"><span>02</span>Reconcile<i></i></button><button data-money-stage="2" aria-pressed="false"><span>03</span>Credit<i></i></button></div>
+    <span class="scene-caption">EXAMPLE PAYMENT / SUCCESSFUL RETRY</span>
+  </div>
+</div>
+      <div class="hero-index" aria-hidden="true">SET / 01</div>
+    </section>
+
+    <section class="question section-pad" id="method">
+      <div class="section-label reveal"><span>02</span>The question</div>
+      <h2 class="display reveal">Where is<br><span>my money?</span></h2>
+      <div class="question-bottom reveal"><p>One payment question. One place to investigate.</p><div class="signal"><i></i><span>One question.<br>One connected trace.</span></div></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div>CAPTURED <i>✦</i> ALLOCATED <i>✦</i> SENT <i>✦</i> CREDITED <i>✦</i> RECONCILED <i>✦</i>&nbsp; CAPTURED <i>✦</i> ALLOCATED <i>✦</i> SENT <i>✦</i> CREDITED <i>✦</i> RECONCILED <i>✦</i></div></div>
+
+    <section class="trace section-pad" id="proof">
+      <div class="trace-heading"><div class="section-label reveal"><span>03</span>The evidence trail</div><h2 class="reveal">Three systems.<br><em>One true story.</em></h2><p class="reveal">Every answer links to its evidence.</p></div>
+      <div class="trace-stage reveal">
+        <svg class="trace-line" viewBox="0 0 1000 230" preserveAspectRatio="none" aria-hidden="true"><path class="trace-path-bg" d="M90 115 C235 25 310 205 500 115 S775 25 910 115"/><path class="trace-path" d="M90 115 C235 25 310 205 500 115 S775 25 910 115"/></svg>
+        <button class="source-node active" data-step="0"><span>01</span><i class="node-disc" aria-hidden="true"></i><small>Payment gateway</small><strong>Capture confirmed</strong></button>
+        <button class="source-node" data-step="1"><span>02</span><i class="node-disc" aria-hidden="true"></i><small>Merchant ledger</small><strong>Payable recorded</strong></button>
+        <button class="source-node" data-step="2"><span>03</span><i class="node-disc" aria-hidden="true"></i><small>Bank settlement</small><strong>Outcome verified</strong></button>
+        <div class="trace-detail"><span id="trace-number">01 / GATEWAY</span><p id="trace-copy">Confirms the payment and its settlement ID.</p></div>
+      </div>
+    </section>
+
+    <section class="answer section-pad">
+      <div class="answer-copy"><div class="section-label reveal"><span>04</span>The answer</div><h2 class="reveal">Say what happened.<br><em>Show your work.</em></h2><p class="reveal">Status. Reason. Next step. Evidence.</p><a class="line-link reveal" href="login.html">Sign in <b>↗</b></a></div>
+      <div class="answer-device tilt reveal">
+        <div class="device-top"><span class="mini-mark"><img class="brand-logo-image" src="assets/images/settlelens-logo.png" alt="SettleLens"></span><div><strong>Settlement copilot</strong><small>Evidence-first answer</small></div><i></i></div>
+        <div class="prompt">Why hasn’t TXN-1042 settled?</div>
+        <span class="failed">● &nbsp; FAILED</span><h3>The payment succeeded.<br>The payout didn’t.</h3>
+        <p>The bank rejected the ₹2,450 settlement because the beneficiary details are invalid.</p>
+        <div class="receipts"><span>▣ Gateway ↗</span><span>▥ Bank ↗</span><span>▤ Ledger ↗</span></div>
+        <div class="device-exception"><span>△</span><p><strong>What we can’t confirm</strong>No subsequent retry appears in the loaded records.</p></div>
+      </div>
+    </section>
+
+    <section class="exceptions section-pad" id="exceptions">
+      <div class="missing-record-visual" aria-hidden="true"><div class="record-shadow"></div><div class="record-paper"><span>RECONCILIATION / EXCEPTION</span><div class="record-line"><i>Gateway</i><b>₹7,499.00 ✓</b></div><div class="record-line"><i>Net payable</i><b>₹7,349.02 ✓</b></div><div class="record-line record-missing"><i>Bank outcome</i><b>—</b></div><div class="record-warning">△ &nbsp; Evidence needed</div><small>A missing record is not a failed payment.</small></div><span class="record-tag">TXN-1046</span></div>
+      <div class="exception-copy"><div class="section-label reveal"><span>05</span>Honesty, built in</div><h2 class="reveal">No evidence?<br><em>No invention.</em></h2><p class="reveal">See what’s missing and what to verify next.</p><ul class="reveal"><li><span>01</span>Missing bank outcome</li><li><span>02</span>Conflicting statuses</li><li><span>03</span>Unexplained amount difference</li></ul></div>
+    </section>
+
+
+    <section class="startup-platform section-pad" id="platform">
+      <div class="platform-heading">
+        <div class="section-label reveal"><span>PLATFORM</span>Settlement operations, connected</div>
+        <h2 class="reveal">Built for the work<br><em>after payment.</em></h2>
+        <p class="reveal">For support, payment operations, and finance teams that need the same answer.</p>
+      </div>
+      <div class="capability-grid">
+        <article class="capability-card reveal"><span>01</span><h3>Trace every event</h3><p>Follow capture, fees, payout attempts, retries, and bank credits in one timeline.</p><i>Gateway → Bank → Ledger</i></article>
+        <article class="capability-card reveal"><span>02</span><h3>Explain the delay</h3><p>Turn settlement records into a clear reason and a support-ready next step.</p><i>Status → Reason → Action</i></article>
+        <article class="capability-card reveal"><span>03</span><h3>Reconcile the money</h3><p>Compare captured, deducted, payable, and credited amounts using exact values.</p><i>Captured − Fees = Payable</i></article>
+        <article class="capability-card reveal"><span>04</span><h3>Keep gaps visible</h3><p>Surface missing evidence, conflicting statuses, and unexplained differences.</p><i>Known · Missing · Review</i></article>
+      </div>
+      <div class="stack-panel reveal">
+        <div><span class="platform-kicker">YOUR PAYMENT STACK</span><h3>Connect the records you already use.</h3><p>Start with structured files. Add read-only gateway, bank, ledger, and support connectors as you move to production.</p></div>
+        <div class="stack-tags" aria-label="Supported data categories"><span>Payment gateways</span><span>Bank outcomes</span><span>Merchant ledgers</span><span>Support tools</span><span>CSV &amp; API</span></div>
+      </div>
+      <div class="trust-panel reveal">
+        <div><span class="platform-kicker">PRODUCTION STANDARD</span><h3>Evidence first. Access controlled.</h3></div>
+        <ul><li><strong>Read only</strong><span>Investigate without moving money</span></li><li><strong>Scoped access</strong><span>Keep every merchant workspace isolated</span></li><li><strong>Audit ready</strong><span>Retain sources, decisions, and analyst actions</span></li></ul>
+        <p>These controls describe the production deployment standard. The public experience uses synthetic data and has no live payment connections.</p>
+      </div>
+    </section>
+    <section class="numbers section-pad">
+      <div class="section-label reveal"><span>06</span>Platform scope</div>
+      <div class="number-grid"><div class="reveal"><strong data-count="12">12</strong><span>Synthetic<br>transactions</span></div><div class="reveal"><strong data-count="3">03</strong><span>Connected<br>data sources</span></div><div class="reveal"><strong data-count="4">04</strong><span>Hard-case<br>exceptions</span></div></div>
+      <p class="numbers-note reveal">Synthetic sample data. No live payments.</p>
+    </section>
+
+    <section class="closing section-pad">
+      <div class="closing-money" aria-hidden="true"><div class="closing-banknote"><span>SETTLEMENT CONFIRMED</span><strong>₹8,329<span>.02</span></strong><i>RECORDED. RECONCILED. EXPLAINED.</i><b>₹</b></div><div class="closing-banknote note-duplicate"><span>FOLLOW THE MONEY</span><strong>₹</strong></div></div><div class="closing-copy"><div class="section-label reveal"><span>07</span>Get started</div><h2 class="reveal">Make every settlement<br><em>make sense.</em></h2><a class="primary magnetic reveal" href="login.html">Sign in <b>↗</b></a></div>
+    </section>
+  </main>
+  <footer class="minimal-footer"><a href="terms.html?theme=midnight">Terms &amp; Conditions</a><span>Copyright © 2026 SettleLens.</span></footer>
+  <dialog class="story-modal"><button class="modal-close" aria-label="Close story">×</button><span class="section-label"><span>EXAMPLE CASE</span>One settlement, completely traced</span><div class="story-track"><i></i><i></i><i></i></div><h2>Captured → rejected → explained.</h2><p>A ₹2,500 payment is captured. The ledger records ₹2,450 payable after fees. The bank rejects the payout because the beneficiary details are invalid. SettleLens connects the three records and names the missing retry.</p><a href="login.html" class="primary">Sign in to investigate ↗</a></dialog>
+  <script src="assets/js/landing.js"></script>
+</body>
 </html>
